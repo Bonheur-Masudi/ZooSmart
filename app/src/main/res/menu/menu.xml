@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/accueil"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Order" />
+    <item
+        android:id="@+id/visite"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Go out" />
+    <item
+        android:id="@+id/communaute"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Communaute" />
+    <item
+        android:id="@+id/inviter"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Inviter" />
+</menu>

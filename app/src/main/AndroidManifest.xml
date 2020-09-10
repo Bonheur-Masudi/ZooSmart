@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.quimplex.q_shopdrc">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_appli"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".QRCode.ScaningQR"></activity>
+        <activity android:name=".AccueilActivity" />
+        <activity android:name=".PhoneLoginRegister.PhoneRegisterActivity" />
+        <activity android:name=".PhoneLoginRegister.PhoneLoginActivity" />
+        <activity android:name=".EmailLoginRegister.EmailRegisterActivity" />
+        <activity android:name=".EmailLoginRegister.EmailLoginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

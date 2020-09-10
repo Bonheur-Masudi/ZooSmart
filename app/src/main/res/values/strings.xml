@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ZooSmart</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Menu1">Menu 1</string>
+    <string name="Menu2">Menu 2</string>
+    <string name="Menu3">Menu 3</string>
+    <string name="Menu4">Menu 4</string>
+</resources>
